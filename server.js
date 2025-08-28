@@ -23,7 +23,7 @@ const server = http.createServer(app);
 // This list contains the URLs that are allowed to make requests to your API.
 const allowedOrigins = [
     'http://localhost:5173', // For local development
-    // 'https://your-live-frontend-url.com' // TODO: Add your live frontend URL here after deploying it
+     'https://mern-survery-app-frontend.onrender.com' // TODO: Add your live frontend URL here after deploying it
 ];
 
 const corsOptions = {
